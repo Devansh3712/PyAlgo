@@ -24,3 +24,4 @@ The given modules are available in ``PyAlgo``:
    pyalgo.search.rst
    pyalgo.cp.rst
    pyalgo.sort.rst
+   pyalgo.graph.rst
