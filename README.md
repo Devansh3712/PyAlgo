@@ -7,3 +7,5 @@
 [![codecov](https://codecov.io/gh/Devansh3712/PyAlgo/branch/main/graph/badge.svg?token=E8FSTXSP97)](https://codecov.io/gh/Devansh3712/PyAlgo)
 
 Library for Algorithms in Python
+
+![carbon (1)](https://user-images.githubusercontent.com/58616444/110959226-7dcd0d00-8373-11eb-827d-f70f06a8dab6.png)
