@@ -23,7 +23,7 @@ def bubble_sort(arr: list):
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
                 swap = True
 
-        if (swap == False):
+        if (swap is False):
             break
 
     return arr
