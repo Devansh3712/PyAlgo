@@ -3,7 +3,8 @@ module for Faster
 Input/Output
 """
 
-import sys, os
+import sys
+import os
 from io import BytesIO, IOBase
 
 BUFSIZE = 8192
