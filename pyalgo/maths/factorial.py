@@ -1,15 +1,15 @@
-'''
+"""
 module for calculating
 factorials of large
 numbers efficiently
-'''
+"""
 
 def factorial(n: int):
 
-    '''
+    """
     Calculating factorial using
     prime decomposition
-    '''
+    """
 
     prime   = [True] * (n + 1)
     result  = 1
@@ -37,7 +37,7 @@ def factorial(n: int):
 
     return result
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

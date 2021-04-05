@@ -1,17 +1,17 @@
-'''
+"""
 module for implementation
 of exponential search
 algorithm
-'''
+"""
 
 from pyalgo.search.binary_search import *
 
 def exponential_search(arr: list, start: int, end: int, key):
 
-    '''
+    """
     Exponential search using
     iterative moethod
-    '''
+    """
 
     if (end - start <= 0):
 
@@ -29,7 +29,7 @@ def exponential_search(arr: list, start: int, end: int, key):
 
     return binary_search(arr, int(num / 2), num, key)
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

@@ -1,7 +1,7 @@
-'''
+"""
 module for implementation of
 radix sort
-'''
+"""
 
 def count_sort(arr: list, exp1: int):
 
@@ -42,7 +42,7 @@ def radix_sort(arr: list):
 
 	return arr
 
-'''
+"""
 PyAlgo
 Devansh Singh
-'''
+"""

@@ -1,7 +1,7 @@
-'''
+"""
 module for implementation
 of counting sort
-'''
+"""
 
 def counting_sort(arr: list):
 
@@ -26,7 +26,7 @@ def counting_sort(arr: list):
 
     return arr
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

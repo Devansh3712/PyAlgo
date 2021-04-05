@@ -1,17 +1,17 @@
-'''
+"""
 module for calculating
 prime numbers upto 'n'
 using sieve of
 eratosthenes
-'''
+"""
 
 def sieve(n: int):
 
-    '''
+    """
     Using the sieve of eratosthenes
     return an array of all prime
     numbers upto n efficiently
-    '''
+    """
 
     num1    = (n - 1) // 2
     num2    = 0
@@ -44,7 +44,7 @@ def sieve(n: int):
 
     return result
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

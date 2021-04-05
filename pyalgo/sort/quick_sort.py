@@ -1,7 +1,7 @@
-'''
+"""
 module for implementation of
 quick sort
-'''
+"""
 
 def partition(arr: list, low: int, high: int):
 	i = low - 1
@@ -19,10 +19,10 @@ def partition(arr: list, low: int, high: int):
  
 def quick_sort(arr: list, low: int, high: int):
 
-    '''
+    """
     iterative implementation
     of quick sort
-    '''
+    """
 
     size    = high - low + 1
     stack   = [0] * (size)
@@ -61,10 +61,10 @@ def quick_sort(arr: list, low: int, high: int):
 
 def quick_sort_recursive(arr: list, low: int, high: int):
 
-    '''
+    """
     recursive implementation
     of quick sort
-    '''
+    """
 
     if (low < high):
   
@@ -75,7 +75,7 @@ def quick_sort_recursive(arr: list, low: int, high: int):
 
     return arr
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

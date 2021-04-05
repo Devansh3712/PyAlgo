@@ -1,9 +1,9 @@
 
-'''
+"""
 module for testing
 sort.merge_sort.py from
 pyalgo math module
-'''
+"""
 
 import sys
 import os
@@ -22,7 +22,7 @@ class TestMergesort(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

@@ -18,7 +18,7 @@ class Graph:
 
         for i in range (self.v):
 
-            if (key[i] < min and mst_set[i] is False):
+            if (key[i] < min and mst_set[i] == False):
 
                 min         = key[i]
                 min_index   = i
@@ -40,7 +40,7 @@ class Graph:
 
             for j in range (self.v):
 
-                if (self.graph[u][j] > 0 and mst_set[j] is False and key[j] > self.graph[u][j]):
+                if (self.graph[u][j] > 0 and mst_set[j] == False and key[j] > self.graph[u][j]):
 
                     key[j] = self.graph[u][j]
                     parent[j] = u

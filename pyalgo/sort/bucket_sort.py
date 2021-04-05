@@ -1,7 +1,7 @@
-'''
+"""
 module for implementation
 of bucket sort
-'''
+"""
 
 from pyalgo.sort.insertion_sort import insertion_sort	 
 			
@@ -31,7 +31,7 @@ def bucket_sort(arr: list):
 
     return arr
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

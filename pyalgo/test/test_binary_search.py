@@ -1,9 +1,9 @@
 
-'''
+"""
 module for testing
 search.binary_search.py from
 pyalgo math module
-'''
+"""
 
 import sys
 import os
@@ -22,7 +22,7 @@ class TestBinarysearch(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

@@ -1,18 +1,18 @@
-'''
+"""
 module for implementation
 of Rabin Karp algorithm
 for pattern searching
-'''
+"""
 
 CHAR = 256
   
 def rabin_karp(pattern, text):
 
-    '''
+    """
     searches all occurences
     of pattern in text, returns
     list of indexes
-    '''
+    """
 
     PRIME 		= 101
     len_pat 	= len(pattern) 
@@ -54,7 +54,7 @@ def rabin_karp(pattern, text):
 
     return result
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

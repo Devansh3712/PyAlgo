@@ -1,7 +1,7 @@
-'''
+"""
 module for calculating
 the nth catalan number
-'''
+"""
 
 def binomial_coeff(n: int, k: int):
 
@@ -18,18 +18,18 @@ def binomial_coeff(n: int, k: int):
 
 def catalan(n: int):
 
-    '''
+    """
     Using binomial coefficients
     calculating the nth
     catalan number
-    '''
+    """
 
     result = binomial_coeff(2 * n, n)
     answer = int(result / (n + 1))
 
     return answer
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

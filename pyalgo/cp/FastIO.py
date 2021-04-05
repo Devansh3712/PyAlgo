@@ -1,19 +1,18 @@
-'''
+"""
 module for Faster
 Input/Output
-'''
+"""
 
-import sys
-import os
+import sys, os
 from io import BytesIO, IOBase
 
 BUFSIZE = 8192
 
 class FastIO(IOBase):
 
-    '''
+    """
     class for creating Fast I/O
-    '''
+    """
 
     newlines = 0
 
@@ -61,13 +60,13 @@ class FastIO(IOBase):
 
 class IOWrapper(IOBase):
 
-    '''
+    """
     optimising stdin and
     stdout for Fast I/O
 
     Usage:
     sys.stdin, sys.stdout = IOWrapper(sys.stdin), IOWrapper(sys.stdout)
-    '''
+    """
 
     def __init__(self, file):
 
@@ -78,7 +77,7 @@ class IOWrapper(IOBase):
         self.read = lambda: self.buffer.read().decode("ascii")
         self.readline = lambda: self.buffer.readline().decode("ascii")
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

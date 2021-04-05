@@ -1,7 +1,7 @@
-'''
+"""
 module for implementation
 of convex hull algorithm
-'''
+"""
 
 class Point:
 
@@ -40,11 +40,11 @@ def orientation(p, q, r):
   
 def convex_hull(points: list, n: int):
 
-    '''
+    """
     finding the convex hull of a given
     set of points using jarvis
     algorithm
-    ''' 
+    """ 
 
     if (n < 3):
         return
@@ -75,7 +75,7 @@ def convex_hull(points: list, n: int):
 
     return result
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

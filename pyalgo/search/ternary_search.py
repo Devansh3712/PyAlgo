@@ -1,15 +1,15 @@
-'''
+"""
 module for implementation
 of ternary search
 algorithm
-'''
+"""
 
 def ternary_search(arr: list, start: int, end: int, key):
 
-    '''
+    """
     Ternary search
     using recursive method
-    '''
+    """
 
     if (start <= end):
 
@@ -29,7 +29,7 @@ def ternary_search(arr: list, start: int, end: int, key):
 
     return -1
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

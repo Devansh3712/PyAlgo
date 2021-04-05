@@ -1,13 +1,13 @@
-'''
+"""
 module for implementation
 of insertion sort
-'''
+"""
 
 def insertion_sort(arr: list):
 
-    '''
+    """
     Time Complexity: O(n ^ 2)
-    '''
+    """
 
     for i in range (1, len(arr)):
 
@@ -23,7 +23,7 @@ def insertion_sort(arr: list):
 
     return arr
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

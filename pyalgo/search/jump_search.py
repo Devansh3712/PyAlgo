@@ -1,15 +1,15 @@
-'''
+"""
 module for implementation
 of exponential search
 algorithm
-'''
+"""
 
 def jump_search(arr: list, key):
 
-    '''
+    """
     Jump search using
     iterative method
-    '''
+    """
 
     size    = len(arr)
     start   = 0
@@ -30,7 +30,7 @@ def jump_search(arr: list, key):
 
     return -1
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

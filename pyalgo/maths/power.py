@@ -1,15 +1,15 @@
-'''
+"""
 module for calculating
 x to the power y (x ** y)
 efficiently
-'''
+"""
 
 def big_power(x: int, y: int, MOD = None):
 
-    '''
+    """
     For calculating powers where
     x and y are large numbers
-    '''
+    """
 
     result = 1
 
@@ -35,10 +35,10 @@ def big_power(x: int, y: int, MOD = None):
 
 def mod_power(x: int, y:int, MOD: int):
 
-    '''
+    """
     For calculating powers where
     modular arithmetic is used
-    '''
+    """
 
     result  = 1
     x       = x % MOD
@@ -56,7 +56,7 @@ def mod_power(x: int, y:int, MOD: int):
 
     return result
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

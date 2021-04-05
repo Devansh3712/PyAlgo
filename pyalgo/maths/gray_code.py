@@ -1,8 +1,8 @@
-'''
+"""
 module for calculating
 bit pattern from 0 to
 2 ** n - 1
-'''
+"""
 
 def gray_code(n: int):
 
@@ -33,7 +33,7 @@ def gray_code(n: int):
 
     return result
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

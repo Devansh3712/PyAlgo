@@ -1,16 +1,16 @@
-'''
+"""
 module for implementation
 of KMP algorithm for
 pattern searching
-'''
+"""
 
 def kmp(pattern: str, text: str):
 
-    '''
+    """
     searches all occurences
     of pattern in text, returns
     list of indexes
-    '''
+    """
 
     len_pat = len(pattern)
     len_txt = len(text)
@@ -65,7 +65,7 @@ def compute(pattern: str, len_pat: int, arr: list):
                 arr[num2] = 0
                 num2 += 1
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

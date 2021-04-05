@@ -1,15 +1,15 @@
-'''
+"""
 module for implementation
 of Z algorithm for
 pattern matching
-'''
+"""
 
 def z_arr(string: str, z: list):
 
-    '''
+    """
     fills z array for given
     string
-    '''
+    """
 
     len_str = len(string)
     l, r, k = 0, 0, 0
@@ -45,11 +45,11 @@ def z_arr(string: str, z: list):
 
 def z_algorithm(text: str, pattern: str):
 
-    '''
+    """
     returns all occurences
     of pattern in the given
     text
-    '''
+    """
 
     result      = []
     concat      = pattern + "$" + text
@@ -65,7 +65,7 @@ def z_algorithm(text: str, pattern: str):
 
     return result
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

@@ -1,14 +1,14 @@
-'''
+"""
 module for implementation
 of selection sort using
 iterative method
-'''
+"""
 
 def selection_sort(arr: list):
 
-    '''
+    """
     Time Complexity: O(n ^ 2)
-    '''
+    """
 
     for i in range (len(arr)):
 
@@ -23,7 +23,7 @@ def selection_sort(arr: list):
 
     return arr
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

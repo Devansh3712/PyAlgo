@@ -1,9 +1,9 @@
 
-'''
+"""
 module for testing
 sort.cycle_sort.py from
 pyalgo math module
-'''
+"""
 
 import sys
 import os
@@ -22,7 +22,7 @@ class TestCyclesort(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

@@ -1,7 +1,7 @@
-'''
+"""
 module for implementation of
 merge sort
-'''
+"""
 
 def merge_sort(arr: list):
 
@@ -44,7 +44,7 @@ def merge_sort(arr: list):
 
     return arr
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

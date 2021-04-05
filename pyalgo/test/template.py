@@ -1,7 +1,7 @@
-'''
+"""
 template for testing
 modules using unittest
-'''
+"""
 
 import datetime
 
@@ -54,7 +54,7 @@ PyAlgo
 file.write(template)
 file.close()
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

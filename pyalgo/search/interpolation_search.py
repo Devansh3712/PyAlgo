@@ -1,15 +1,15 @@
-'''
+"""
 module for implementation
 of interpolation search
 algorithm
-'''
+"""
 
 def interpolation_search(arr: list, start: int, end: int, key):
 
-    '''
+    """
     Interpolation search using
     iterative method
-    '''
+    """
 
     while (start <= end and key >= arr[start] and key <= arr[end - 1]):
 
@@ -30,7 +30,7 @@ def interpolation_search(arr: list, start: int, end: int, key):
 
     return -1
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

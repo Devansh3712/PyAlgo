@@ -1,7 +1,7 @@
-'''
+"""
 module for implementation
 of pigeonhole sort
-'''
+"""
 
 def pigeonhole_sort(arr: list):
 
@@ -25,7 +25,7 @@ def pigeonhole_sort(arr: list):
 
     return arr
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

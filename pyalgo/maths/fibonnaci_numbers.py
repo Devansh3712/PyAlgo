@@ -1,7 +1,7 @@
-'''
+"""
 module for calculating
 nth fibonacci number
-'''
+"""
 
 def fibonacci(n: int):
 	
@@ -41,7 +41,7 @@ def power(matrix, n):
 	if (n % 2 != 0):
 		multiply(matrix, matrix2)
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

@@ -1,7 +1,7 @@
-'''
+"""
 module for implementation
 of heap sort
-'''
+"""
 
 def heap(arr: list, n: int, i: int):
 
@@ -34,7 +34,7 @@ def heap_sort(arr: list):
 
     return arr
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

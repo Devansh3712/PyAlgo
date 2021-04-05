@@ -1,16 +1,16 @@
-'''
+"""
 module for checking whether
 a given number is prime or
 not
-'''
+"""
 
 def prime(n: int):
 
-    '''
+    """
     Checking if the number has any
     factors in the range [2, sqrt(n)]
     else it is prime
-    '''
+    """
 
     if (n == 2):
         return True
@@ -25,7 +25,7 @@ def prime(n: int):
 
     return result
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

@@ -1,7 +1,7 @@
-'''
+"""
 module for implementation of
 cycle sort
-'''
+"""
 
 def cycle_sort(arr: list):
     writes = 0
@@ -43,7 +43,7 @@ def cycle_sort(arr: list):
 
     return arr
 
-'''
+"""
 PyAlgo
 Devansh Singh
-'''
+"""

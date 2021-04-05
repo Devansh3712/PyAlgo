@@ -1,8 +1,8 @@
-'''
+"""
 module for calculation
 the eulers totient
 function for n
-'''
+"""
 
 def totient(n: int):
 
@@ -25,7 +25,7 @@ def totient(n: int):
 
     return result
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""

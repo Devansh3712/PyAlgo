@@ -1,15 +1,15 @@
-'''
+"""
 module for implementation
 of binary search
 algorithm
-'''
+"""
 
 def binary_search(arr: list, start: int, end: int, key):
 
-    '''
+    """
     Binary search implementation
     using iterative method
-    '''
+    """
 
     while (start <= end):
 
@@ -26,7 +26,7 @@ def binary_search(arr: list, start: int, end: int, key):
 
     return -1
 
-'''
+"""
 PyAlgo
-Neemesh Yadav, 2021
-'''
+Devansh Singh, 2021
+"""

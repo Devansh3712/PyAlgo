@@ -1,8 +1,8 @@
-'''
+"""
 module for testing
 maths.gray_code.py from
 pyalgo math module
-'''
+"""
 
 import sys
 import os
@@ -21,7 +21,7 @@ class TestGrayCode(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
 
-'''
+"""
 PyAlgo
 Devansh Singh, 2021
-'''
+"""
